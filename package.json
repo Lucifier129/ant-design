@@ -67,6 +67,7 @@
     "rc-trigger": "~1.1.1",
     "rc-upload": "~1.8.0",
     "rc-util": "~3.1.2",
+    "react-lite": "0.0.28",
     "react-slick": "^0.10.0",
     "velocity-animate": "~1.2.2",
     "warning": "~2.1.0"

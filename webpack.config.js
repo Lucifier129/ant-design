@@ -13,7 +13,11 @@ module.exports = {
 
   resolve: {
     extensions: ['', '.js', '.jsx'],
-    unsafeCache: true
+    unsafeCache: true,
+    alias: {
+      'react': 'react-lite',
+      'react-dom': 'react-lite'
+    }
   },
 
   noParse: /_site|node_modules/,

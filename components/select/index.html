@@ -1076,8 +1076,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Option = _antd.Select.Option;
 
-var timeout = undefined;
-var currentValue = undefined;
+var timeout = void 0;
+var currentValue = void 0;
 
 function fetch(value, callback) {
   if (timeout) {
@@ -1492,7 +1492,7 @@ var Test = React.createClass({
     };
   },
   handleChange: function handleChange(value) {
-    var options = undefined;
+    var options = void 0;
     if (!value || value.indexOf('@') >= 0) {
       options = [];
     } else {

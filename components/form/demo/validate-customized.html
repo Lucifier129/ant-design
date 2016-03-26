@@ -47,7 +47,7 @@ var Demo = React.createClass({
   },
   getPassStrenth: function getPassStrenth(value, type) {
     if (value) {
-      var strength = undefined;
+      var strength = void 0;
       // 密码强度的校验规则自定义，这里只是做个简单的示例
       if (value.length < 6) {
         strength = 'L';

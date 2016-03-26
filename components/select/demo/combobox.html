@@ -16,7 +16,7 @@ var Test = React.createClass({
     };
   },
   handleChange: function handleChange(value) {
-    var options = undefined;
+    var options = void 0;
     if (!value || value.indexOf('@') >= 0) {
       options = [];
     } else {

@@ -7,7 +7,7 @@
 var _antd = require('antd');
 
 function getListData(value) {
-  var listData = undefined;
+  var listData = void 0;
   switch (value.getDayOfMonth()) {
     case 8:
       listData = [{ type: 'warn', content: '这里是警告事项.' }, { type: 'normal', content: '这里是普通事项.' }];break;
